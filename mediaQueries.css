@@ -1,0 +1,101 @@
+@media screen  and (max-width: 475px)
+{
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    #firstDiv #title img{
+        height: 160px;
+        width: 160px;
+    }
+    .skillscontainer{
+       
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+    .skillscontainer .skillsDiv{
+        width: 300px;
+        height: 400px;
+     }
+    
+}
+
+
+@media screen  and (max-width: 1024px){
+    .skillscontainer{
+        overflow: hidden;
+    }
+    
+    .skillscontainer .skillsDiv .skilltitle{
+        font-size: 1em;
+    }
+    .skillscontainer .skillsDiv .list{
+        font-size: 1em;
+    }
+}
+@media screen  and (min-width: 475px)
+{
+    #firstDiv #title img{
+        height: 160px;
+        width: 160px;
+    }
+    .skillscontainer{
+       display: flex;
+       flex-direction: column;
+       gap: 2rem;
+       justify-content: center;
+       
+
+    }
+    .skillscontainer .skillsDiv{
+        height: 200px;
+        width: 200px;
+       
+        
+    }
+}
+@media screen  and (max-width: 640px){
+    #links li {
+        width: 350px;
+        height: 50px;
+    }
+    
+}
+
+
+
+@media screen  and (min-width: 600px)
+{
+   
+    .skillscontainer{
+        display: flex;
+       
+        gap: 2rem;
+        justify-content: center;
+        
+ 
+     }
+}
+
+
+@media screen  and (min-width: 900px){
+
+    .skillscontainer{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: center;
+        
+ 
+     }
+
+
+}
+@media screen  and (min-width: 1024px){
+    .skillscontainer .skillsDiv{
+        height: 350px;
+        width: 350px;
+    }
+}
